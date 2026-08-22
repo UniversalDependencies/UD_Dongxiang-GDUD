@@ -1,0 +1,1313 @@
+# sent_id = Dongxiang_grammar_1
+# text = ene fugierei dolon ulafugierei holu-zhiwo dolon ghongie-ne.
+# text[eng] = Then the ox ran through seven mountains and seven ditches, it was said.
+1	ene	ene	DET	_	PronType=Dem	2	det	_	_
+2	fugierei	fugierei	NOUN	_	Number=Sing	6	nsubj	_	_
+3	dolon	dolon	NUM	_	NumType=Card	5	nummod	_	_
+4	ula	ula	NOUN	_	_	5	obl	_	SpaceAfter=No
+5	fugierei	_	VERB	_	Aspect=Prog|VerbForm=Fin	6	acl:relcl	_	Verbalizer=Yes
+6	holu-zhiwo	holu-zhiwo	VERB	_	Aspect=Prog|VerbForm=Fin	0	root	_	_
+7	dolon	dolon	NUM	_	NumType=Card	8	nummod	_	_
+8	ghon	ghon	NOUN	_	_	6	obl	_	SpaceAfter=No
+9	gie-ne	gie-ne	VERB	_	VerbForm=Imp	6	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_2
+# text = xoyir longk süü.
+# text[eng] = Two bottles of milk
+1	xoyir	xoyir	NUM	_	NumType=Card	2	nummod	_	_
+2	longk	longk	NOUN	_	Number=Plur	3	obl	_	_
+3	süü	süü	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_3
+# text = Kergelang Jiashi rake dampe gvarang u-je.
+# text[eng] = Jiashi drank three bottles of alcohol last night
+1	Kergelang	Kergelang	ADV	_	_	6	advmod	_	_
+2	Jiashi	Jiashi	PROPN	_	Number=Sing	6	nsubj	_	_
+3	rake	rake	NOUN	_	_	6	obj	_	_
+4	dampe	dampe	NOUN	_	Number=Plur	3	nummod	_	_
+5	gvarang	gvarang	NOUN	_	_	3	obl	_	_
+6	u-je	u-je	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_4
+# text = Ghua hamusa mienguji Ghua hamusa antan.
+# text[eng] = Two plates of silver and two plates of gold
+1	Ghua	Ghua	NUM	_	NumType=Card	2	nummod	_	_
+2	hamusa	hamusa	NOUN	_	Number=Plur	3	obl	_	_
+3	miengu	miengu	NOUN	_	_	7	conj	_	SpaceAfter=No
+4	ji	ji	CCONJ	_	_	3	cc	_	_
+5	Ghua	Ghua	NUM	_	NumType=Card	6	nummod	_	_
+6	hamusa	hamusa	NOUN	_	Number=Plur	7	obl	_	_
+7	antan	antan	NOUN	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_5
+# text = Kha-ni zhigva-zhi nie shidu olien-ni sida-zhi.
+# text[eng] = He extended his hand to (reach) the cloud and tore a piece of it.
+1	Kha-ni	Kha	PRON	_	Case=Acc|PronType=Prs	4	obj	_	_
+2	zhigva-zhi	zhigva-zhi	VERB	_	VerbForm=Conv	4	advcl	_	_
+3	nie	nie	NUM	_	NumType=Card	5	nummod	_	_
+4	shidu	shidu	VERB	_	VerbForm=Inf	6	compound:svc	_	_
+5	olien-ni	olien	PRON	_	PronType=Prs|Ref=Yes	6	obj	_	_
+6	sida-zhi	sida	VERB	_	VerbForm=Conv	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_6
+# text = Ene kun nie udu jiushijiu-gie u-gie.
+# text[eng] = He caught ninety-nine in one day
+1	Ene	ene	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	kun	kun	NOUN	_	Number=Sing	6	obl	_	_
+3	nie	nie	NUM	_	NumType=Card	4	nummod	_	_
+4	udu	udu	NOUN	_	_	6	obj	_	_
+5	jiushijiu-gie	jiushijiu-gie	NUM	_	NumType=Card	4	compound	_	_
+6	u-gie	u-gie	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_7
+# text = Ene qioron jier-ne chighan xiyangbaibu-nihoro-dene yiqiao long guilugva-zhiwo.
+# text[eng] = He wrapped a white turban on his head that transformed itself into a dragon
+1	Ene	ene	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	qioron	qioron	NOUN	_	Number=Sing	5	obj	_	_
+3	jier-ne	jier-ne	VERB	_	Aspect=Perf|VerbForm=Fin	5	acl:relcl	_	_
+4	chighan	chighan	ADJ	_	_	5	amod	_	_
+5	xiyangbaibu-ni	xiyangbaibu	NOUN	_	Case=Succ|Number=Sing	7	obl	_	SpaceAfter=No
+6	horo-dene	horo-dene	VERB	_	VerbForm=Succ	5	advcl	_	_
+7	yiqiao	yiqiao	PRON	_	PronType=Prs	9	nsubj	_	_
+8	long	long	NOUN	_	_	9	obj	_	_
+9	guilugva-zhi	guilugva-zhi	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	wo	wo	PRON	_	PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_8
+# text = Nie ganzi jiesung wo ibeizi doyi-zhi siragvada-ne. Moran-ni usu
+# text[eng] = (what is) A rope that can never break - A river
+1	Nie	nie	NUM	_	NumType=Card	2	nummod	_	_
+2	ganzi	ganzi	NOUN	_	_	4	obj	_	_
+3	jiesung	jiesung	VERB	_	VerbForm=Conv	4	acl:relcl	_	_
+4	wo	wo	PRON	_	PronType=Prs	5	nsubj	_	_
+5	ibeizi	ibeizi	NOUN	_	_	6	obj	_	_
+6	doyi-zhi	doyi-zhi	VERB	_	VerbForm=Conv	7	acl:relcl	_	_
+7	siragva	siragva	VERB	_	VerbForm=Imp	0	root	_	SpaceAfter=No
+8	da-ne	da-ne	VERB	_	VerbForm=Imp	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+10	Moran-ni	Moran	NOUN	_	Case=Gen	11	obl	_	_
+11	usu	usu	NOUN	_	_	7	parataxis	_	_
+
+# sent_id = Dongxiang_grammar_9
+# text = Ede mini gie-de jieron ganzi gonzheliewo xini khuaichin ghuriqiao wo ghuari qiaozi danzi.
+# text[eng] = Now my house has four quilts, three old and new felt blankets, and two cotton blankets
+1	Ede	ede	ADV	_	_	3	advmod	_	_
+2	mini	mini	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	gie-de	gie-de	NOUN	_	Number=Sing	0	root	_	_
+4	jieron	jieron	NOUN	_	_	3	obl	_	_
+5	ganzi	ganzi	NUM	_	NumType=Card	6	nummod	_	_
+6	gonzhelie	gonzhelie	NOUN	_	_	3	obj	_	SpaceAfter=No
+7	wo	wo	PRON	_	PronType=Prs	6	det	_	_
+8	xini	xini	ADJ	_	_	6	amod	_	_
+9	khuaichin	khuaichin	NUM	_	NumType=Card	10	nummod	_	_
+10	ghuri	ghuri	NOUN	_	_	6	conj	_	SpaceAfter=No
+11	qiao	mianzan	NOUN	_	_	10	compound	_	_
+12	wo	wo	PRON	_	PronType=Prs	10	det	_	_
+13	ghuari	ghuari	NUM	_	NumType=Card	14	nummod	_	_
+14	qiaozi	qiaozi	NOUN	_	_	3	conj	_	_
+15	danzi	danzi	NOUN	_	_	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_10
+# text = Ga biechin zi nie aman kielienkielie-wo.
+# text[eng] = The small monkey only said one word (one mouth of word)
+1	Ga	ga	ADJ	_	_	2	amod	_	_
+2	biechin	biechin	NOUN	_	Number=Sing	6	nsubj	_	_
+3	zi	zi	ADV	_	_	2	advmod	_	_
+4	nie	nie	NUM	_	NumType=Card	5	nummod	_	_
+5	aman	aman	NOUN	_	_	6	obj	_	_
+6	kielien	kielien	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	kielie-wo	kielie-wo	VERB	_	Aspect=Perf|VerbForm=Fin	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_11
+# text = Bijien-ni gie-de jieron matu kun wo.
+# text[eng] = There are four members in our home
+1	Bijien-ni	Bijien	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
+2	gie-de	gie-de	NOUN	_	Number=Sing	5	obl	_	_
+3	jieron	jieron	NOUN	_	_	5	nsubj	_	_
+4	matu	matu	NUM	_	NumType=Card	5	nummod	_	_
+5	kun	kun	NOUN	_	_	0	root	_	_
+6	wo	wo	PRON	_	PronType=Prs	5	det	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_12
+# text = Bijienni gie-de igua dolong kun wo.
+# text[eng] = There are seven persons (members) in our family
+1	Bijienni	Bijien	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nmod:poss	_	_
+2	gie-de	gie-de	NOUN	_	Number=Sing	5	obl	_	_
+3	igua	igua	ADV	_	_	5	advmod	_	_
+4	dolong	dolong	NUM	_	NumType=Card	5	nummod	_	_
+5	kun	kun	NOUN	_	_	0	root	_	_
+6	wo	wo	PRON	_	PronType=Prs	5	det	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_13
+# text = Tani gie-de kun giedun wo?
+# text[eng] = How many people do you have in your family?
+1	Tani	Tani	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	gie-de	gie-de	NOUN	_	Number=Sing	3	obl	_	_
+3	kun	kun	NOUN	_	_	0	root	_	_
+4	giedun	giedun	ADV	_	_	3	advmod	_	_
+5	wo	wo	PRON	_	PronType=Prs	3	det	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_14
+# text = Bi nie tang agvui-de echi-woede matu gie?
+# text[eng] = I went once to comfort (him), what should I do now?
+1	Bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	nie	nie	NUM	_	NumType=Card	3	nummod	_	_
+3	tang	tang	NOUN	_	_	5	obl	_	_
+4	agvui-de	agvui-de	NOUN	_	Number=Sing	5	obj	_	_
+5	echi-wo	echi-wo	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	ede	ede	ADV	_	_	5	advmod	_	_
+7	matu	matu	ADV	_	_	5	advmod	_	_
+8	gie	gie	VERB	_	VerbForm=Fin	5	parataxis	_	SpaceAfter=No|Verbalizer=Yes
+9	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_15
+# text = Ene (...) nie kozi togvon gholu-wo.
+# text[eng] = This (person) turns into dust
+1	Ene	ene	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	(...)	_	PUNCT	_	_	1	punct	_	_
+3	nie	nie	NUM	_	NumType=Card	4	nummod	_	_
+4	kozi	kozi	NOUN	_	_	6	xcomp	_	_
+5	togvon	togvon	VERB	_	Aspect=Perf|VerbForm=Fin	6	compound:svc	_	_
+6	gholu-wo	gholu-wo	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_16
+# text = oqin-la ye mandahhala-zhuonie kozi oqinkieli fugieda-zhuo.
+# text[eng] = The girls are all married, and another woman is even pregnant
+1	oqin-la	oqin	NOUN	_	Case=PR|Number=Plur	3	nsubj	_	_
+2	ye	ye	ADV	_	_	3	advmod	_	_
+3	man	man	VERB	_	Aspect=Prog|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	dahhala-zhuo	dahhala-zhuo	VERB	_	Aspect=Prog|VerbForm=Fin	3	xcomp	_	SpaceAfter=No
+5	nie	nie	NUM	_	NumType=Card	6	nummod	_	_
+6	kozi	kozi	NOUN	_	_	7	nsubj	_	_
+7	oqin	oqin	NOUN	_	_	9	conj	_	SpaceAfter=No
+8	kieli	kieli	PRON	_	PronType=Prs	9	det	_	_
+9	fugieda-zhuo	fugieda-zhuo	VERB	_	Aspect=Prog|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_17
+# text = jiu imutuni ghua kozi manhua khiche ire-zhuo.
+# text[eng] = So two caricatures like this came out (for the exam)
+1	jiu	jiu	ADV	_	_	7	discourse	_	_
+2	imutuni	imutuni	ADV	_	_	7	advmod	_	_
+3	ghua	ghua	NUM	_	NumType=Card	4	nummod	_	_
+4	kozi	kozi	NOUN	_	_	7	nsubj	_	_
+5	manhua	manhua	NOUN	_	_	4	compound	_	_
+6	khiche	khiche	VERB	_	VerbForm=Inf	7	compound:svc	_	_
+7	ire-zhuo	ire-zhuo	VERB	_	Aspect=Prog|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_18
+# text = Ingiese wijien meliewijien melie shida-se nie kozi igvanie kozi nie kozi ochira-zho.
+# text[eng] = In front of the door, on the side of the (front) door, there was a bowl, a (pair of) chopsticks and a glass
+1	Ingiese	Ingiese	ADV	_	_	3	advmod	_	_
+2	wijien	wijien	NOUN	_	_	3	obl	_	_
+3	melie	melie	NOUN	_	_	9	obl	_	SpaceAfter=No
+4	wijien	wijien	NOUN	_	_	5	obl	_	_
+5	melie	melie	NOUN	_	_	9	obl	_	_
+6	shida-se	shida-se	ADP	_	Case=Abl	5	case	_	_
+7	nie	nie	NUM	_	NumType=Card	8	nummod	_	_
+8	kozi	kozi	NOUN	_	_	9	nsubj	_	_
+9	igva	igva	VERB	_	Aspect=Prog|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	nie	nie	NUM	_	NumType=Card	11	nummod	_	_
+11	kozi	chugu	NOUN	_	_	9	conj	_	_
+12	nie	nie	NUM	_	NumType=Card	13	nummod	_	_
+13	kozi	beizi	NOUN	_	_	9	conj	_	_
+14	ochira-zho	ochira-zho	VERB	_	Aspect=Prog|VerbForm=Fin	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Dongxiang_grammar_19
+# text = Khuina shishi yizhi ghua beizikere-ne ghua igvaghua chugu kere-ne.
+# text[eng] = After some time, she always wanted two glasses, two bowls and two (a pair of) chopsticks
+1	Khuina	khuina	ADV	_	_	3	advmod	_	_
+2	shi	shi	NOUN	_	_	3	obl	_	SpaceAfter=No
+3	shi	shi	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	yizhi	yizhi	ADV	_	_	6	advmod	_	_
+5	ghua	ghua	NUM	_	NumType=Card	6	nummod	_	_
+6	beizi	beizi	NOUN	_	_	9	obj	_	SpaceAfter=No
+7	kere-ne	kere-ne	VERB	_	Mood=Imp|VerbForm=Fin	6	xcomp	_	_
+8	ghua	ghua	NUM	_	NumType=Card	9	nummod	_	_
+9	igva	igva	NOUN	_	_	12	obj	_	SpaceAfter=No
+10	ghua	ghua	NUM	_	NumType=Card	12	nummod	_	_
+11	chugu	chugu	NOUN	_	_	12	obj	_	_
+12	kere-ne	kere-ne	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_20
+# text = turan nie kozi hulan qiqiu yaoyaobaibai piaoyi-zhi bao-zhuo.
+# text[eng] = All of a sudden, a swinging red balloon appeared from above
+1	turan	turan	ADV	_	_	9	advmod	_	_
+2	nie	nie	NUM	_	NumType=Card	3	nummod	_	_
+3	kozi	kozi	NOUN	_	_	9	nsubj	_	_
+4	hulan	hulan	ADJ	_	_	5	amod	_	_
+5	qiqiu	qqiu	NOUN	_	_	3	compound	_	_
+6	yaoyaobaibai	yaoyaobaibai	VERB	_	VerbForm=Conv	9	advmod	_	_
+7	piaoyi-zhi	piaoyi-zhi	VERB	_	Aspect=Prog|VerbForm=Fin	9	compound:svc	_	_
+8	bao-zhuo	bao-zhuo	VERB	_	Aspect=Prog|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Dongxiang_grammar_21
+# text = Tenga huapin huina ghuran boozi yyi-na.
+# text[eng] = There are three newspapers behind that vase
+1	Tenga	tenga	DET	_	PronType=Dem	2	det	_	_
+2	huapin	huapin	NOUN	_	_	5	obl	_	_
+3	huina	huina	NUM	_	NumType=Card	4	nummod	_	_
+4	ghuran	ghuran	NOUN	_	_	5	compound	_	_
+5	boozi	boozi	NOUN	_	_	6	nsubj	_	_
+6	yyi-na	yyi-na	VERB	_	Aspect=Perf|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_22
+# text = Buda-ne ger-te orti dolon kun be.
+# text[eng] = There are seven persons in my family
+1	Buda-ne	buda	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+2	ger-te	ger-te	NOUN	_	_	5	obl	_	_
+3	orti	orti	NUM	_	NumType=Card	5	nummod	_	_
+4	dolon	dolon	NUM	_	NumType=Card	5	nummod	_	_
+5	kun	kun	NOUN	_	_	6	nsubj	_	_
+6	be	be	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_23
+# text = Sho-wa, ghuar sho-wa Yizi bandang ghurangwi.
+# text[eng] = No there are not two but three chairs
+1	Sho-wa	sho	VERB	_	Polarity=Neg|Tense=Past	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ghuar	ghuar	NUM	_	NumType=Card	5	nummod	_	_
+4	sho-wa	sho	VERB	_	Polarity=Neg|Tense=Past	5	aux	_	_
+5	Yizi	yizi	NOUN	_	_	7	nsubj	_	_
+6	bandang	bandang	NUM	_	NumType=Card	7	nummod	_	_
+7	ghurang	ghurang	NOUN	_	_	0	root	_	SpaceAfter=No
+8	wi	wi	VERB	_	VerbForm=Fin	7	cop	_	SpaceAfter=No|Verbalizer=Yes
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_24
+# text = Tere nege beng becheg cheni uu?
+# text[eng] = Is that book yours?
+1	Tere	tere	DET	_	PronType=Dem	2	det	_	_
+2	nege	nege	NOUN	_	_	5	nsubj	_	_
+3	beng	beng	NUM	_	NumType=Card	2	nummod	_	_
+4	becheg	becheg	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nmod:poss	_	_
+5	cheni	cheni	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+6	uu	uu	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_25
+# text = Ditu diere kelisa Xining-du san-jia huanguer bang.
+# text[eng] = On this map there are three restaurants in Xining
+1	Ditu	ditu	NOUN	_	_	3	obl	_	_
+2	diere	diere	ADP	_	_	1	case	_	_
+3	kelisa	kelisa	NOUN	_	_	7	nsubj	_	_
+4	Xining-du	Xining-du	PROPN	_	Case=Loc	3	nmod	_	_
+5	san-jia	san-jia	NUM	_	NumType=Card	6	nummod	_	_
+6	huanguer	huanguer	NOUN	_	_	7	obj	_	_
+7	bang	bang	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_26
+# text = Niker jiura ning-du mer liang-tiaobang.
+# text[eng] = Now there are two roads here
+1	Niker	niker	ADV	_	_	5	advmod	_	_
+2	jiura	jiura	ADV	_	_	1	advmod	_	_
+3	ning-du	ning-du	PROPN	_	Case=Loc	5	obl	_	_
+4	mer	mer	NUM	_	NumType=Card	5	nummod	_	_
+5	liang-tiao	liang-tiao	NOUN	_	_	6	nsubj	_	SpaceAfter=No
+6	bang	bang	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_27
+# text = əna ʂi³ jan wo?
+# text[eng] = What is this?
+1	əna	əna	DET	_	PronType=Dem	2	det	_	_
+2	ʂi³	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	jan	jan	PRON	_	PronType=Int	2	nsubj	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_28
+# text = əna ʂi mini ʂu⁴ wo.
+# text[eng] = This is my book.
+1	əna	əna	DET	_	PronType=Dem	2	det	_	_
+2	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	mini	mini	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	ʂu⁴	ʂu	NOUN	_	_	2	nsubj	_	_
+5	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_29
+# text = hə ʂi niə bəndzi⁵ ʂu. tʂinurəŋ wo nu?
+# text[eng] = That is a book. Is that yours?
+1	hə	hə	DET	_	PronType=Dem	2	det	_	_
+2	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	niə	niə	NUM	_	NumType=Card	4	nummod	_	_
+4	bəndzi⁵	bəndzi	NOUN	_	_	2	nsubj	_	_
+5	ʂu	ʂu	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+7	tʂinurəŋ	tʂinurəŋ	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	9	aux	_	_
+9	nu	nu	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Dongxiang_grammar_30
+# text = puʂi wo. minurəŋ puʂi wo. hə ʂi tʂinurəŋ wo.
+# text[eng] = No, it is not mine. It's yours.
+1	puʂi	puʂi	ADV	_	Polarity=Neg	2	discourse	_	_
+2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+4	minurəŋ	minurəŋ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nsubj	_	_
+5	puʂi	puʂi	ADV	_	Polarity=Neg	6	discourse	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+8	hə	hə	DET	_	PronType=Dem	9	det	_	_
+9	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
+10	tʂinurəŋ	tʂinurəŋ	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+11	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	9	aux	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Dongxiang_grammar_31
+# text = əna ʂi niə bəndzi ʂu wo nu?
+# text[eng] = Is this a book?
+1	əna	əna	DET	_	PronType=Dem	2	det	_	_
+2	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	niə	niə	NUM	_	NumType=Card	4	nummod	_	_
+4	bəndzi	bəndzi	NOUN	_	_	2	nsubj	_	_
+5	ʂu	ʂu	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	_
+7	nu	nu	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_32
+# text = tʂi ʂi kiən wo?
+# text[eng] = Who are you?
+1	tʂi	tʂi	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	kiən	kiən	PRON	_	PronType=Int	2	nmod	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_33
+# text = puʂi wo. hə ʂi niə bidʑibən⁶ wo. hə ʂi mini bidʑibən wo.
+# text[eng] = “No, that is not a book. That is my notebook.”
+1	puʂi	puʂi	ADV	_	Polarity=Neg	2	discourse	_	_
+2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+4	hə	hə	DET	_	PronType=Dem	5	det	_	_
+5	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
+6	niə	niə	NUM	_	NumType=Card	7	nummod	_	_
+7	bidʑibən⁶	bidʑibən	NOUN	_	_	5	nsubj	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+10	hə	hə	DET	_	PronType=Dem	11	det	_	_
+11	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
+12	mini	mini	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	bidʑibən	bidʑibən	NOUN	_	_	11	nsubj	_	_
+14	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	11	aux	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = Dongxiang_grammar_34
+# text = bi ʂi ʨiaʂəŋ⁷ wo. mini niərə ʂi Tuja wo.
+# text[eng] = “I am a student and my name is Tuyaa.”
+1	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	ʨiaʂəŋ⁷	ʨiaʂəŋ	NOUN	_	_	2	nmod	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+6	mini	mini	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	niərə	niərə	NOUN	_	_	8	nsubj	_	_
+8	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
+9	Tuja	Tuja	PROPN	_	_	8	nmod	_	_
+10	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	8	aux	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Dongxiang_grammar_35
+# text = hə niə otɕidai kuŋ jaʂi⁸ da ʨiaʂəŋ ənbai-n-u?
+# text[eng] = “Is that woman also a student?”
+1	hə	hə	DET	_	PronType=Dem	2	det	_	_
+2	niə	niə	NUM	_	NumType=Card	3	nummod	_	_
+3	otɕidai	otɕidai	NOUN	_	_	5	nsubj	_	_
+4	kuŋ	kuŋ	PART	_	_	5	discourse	_	_
+5	jaʂi⁸	ʨiaʂəŋ	NOUN	_	_	6	nmod	_	_
+6	da	da	PART	_	_	7	discourse	_	_
+7	ʨiaʂəŋ	ʨiaʂəŋ	NOUN	_	_	0	root	_	_
+8	ənbai-n-u	ənbai-n-u	AUX	_	Mood=Ind|Polarity=Pos|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_36
+# text = hə niə kuŋ lauʂi puʂi wo olu-dʑi wo-u?
+# text[eng] = “He is not a teacher, right?”
+1	hə	hə	DET	_	PronType=Dem	3	det	_	_
+2	niə	niə	NUM	_	NumType=Card	3	nummod	_	_
+3	kuŋ	kuŋ	NOUN	_	_	6	nsubj	_	_
+4	lauʂi	lauʂi	NOUN	_	_	6	nmod	_	_
+5	puʂi	puʂi	ADV	_	Polarity=Neg	6	discourse	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+7	olu-dʑi	olu-dʑi	PART	_	_	6	discourse	_	_
+8	wo-u	wo-u	AUX	_	Mood=Ind|VerbForm=Fin	6	aux	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_37
+# text = hə kuŋ-la ʂi jan kuŋ wo?
+# text[eng] = “Who are they?”
+1	hə	hə	DET	_	PronType=Dem	2	det	_	_
+2	kuŋ-la	kuŋ-la	NOUN	_	Number=Plur	4	nsubj	_	_
+3	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+4	jan	jan	PRON	_	PronType=Int	3	nmod	_	_
+5	kuŋ	kuŋ	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	aux	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_38
+# text = bi ulia madʑiə-na, hə-la kuŋpa ʂi lauʂi bi-mu ʨiaʂəŋ pa-sə
+# text[eng] = “I don't know whether they are teachers or students.”
+1	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ulia	ulia	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	_
+3	madʑiə-na	madʑiə-na	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	hə-la	hə-la	DET	_	PronType=Dem	7	det	_	_
+6	kuŋpa	kuŋpa	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
+8	lauʂi	lauʂi	NOUN	_	_	7	nmod	_	_
+9	bi-mu	bi-mu	VERB	_	Mood=Ind|VerbForm=Fin	7	ccomp	_	_
+10	ʨiaʂəŋ	ʨiaʂəŋ	NOUN	_	_	9	nmod	_	_
+11	pa-sə	pa-sə	AUX	_	Mood=Ind|VerbForm=Fin	9	aux	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_39
+# text = ənədzi-kaŋ ʂi tʂini duŋʨi wo nu?
+# text[eng] = “Are these all your belongings?”
+1	ənədzi-kaŋ	ənədzi-kaŋ	DET	_	Number=Plur|PronType=Dem	2	det	_	_
+2	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	tʂini	tʂini	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	duŋʨi	duŋʨi	NOUN	_	_	2	nsubj	_	_
+5	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	_
+6	nu	nu	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_40
+# text = ənədzi-kaŋ duŋʨi dunda ədzi-kaŋ niə ʂi minurəŋ wo ədzi-kaŋ niə ʂi mini gaganurəŋ wo
+# text[eng] = “Some of these things are mine, and some of them are my elder brother’s.”
+1	ənədzi-kaŋ	ənədzi-kaŋ	DET	_	Number=Plur|PronType=Dem	3	det	_	_
+2	duŋʨi	duŋʨi	NOUN	_	_	3	nsubj	_	_
+3	dunda	dunda	ADP	_	_	5	case	_	_
+4	ədzi-kaŋ	ədzi-kaŋ	DET	_	Number=Plur|PronType=Dem	5	det	_	_
+5	niə	niə	NUM	_	NumType=Card	6	nummod	_	_
+6	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+7	minurəŋ	minurəŋ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nsubj	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	6	aux	_	_
+9	ədzi-kaŋ	ədzi-kaŋ	DET	_	Number=Plur|PronType=Dem	11	det	_	_
+10	niə	niə	NUM	_	NumType=Card	11	nummod	_	_
+11	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	6	parataxis	_	_
+12	mini	mini	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+13	gaganurəŋ	gaganurəŋ	NOUN	_	_	11	nsubj	_	_
+14	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	11	aux	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_41
+# text = əna niə ʂuang gudusuŋ ʂi minurəŋ ja puʂi wo, mini gaganurəŋ ja puʂi wo, kiənurəŋ pa-sə ulia madʑiə-na
+# text[eng] = “This pair of boots is not mine, and it is not my elder brother's either. I don't know whose it is.”
+1	əna	əna	DET	_	PronType=Dem	3	det	_	_
+2	niə	niə	NUM	_	NumType=Card	3	nummod	_	_
+3	ʂuang	ʂuang	NOUN	_	_	6	nsubj	_	_
+4	gudusuŋ	gudusuŋ	NOUN	_	_	3	nmod	_	_
+5	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	6	cop	_	_
+6	minurəŋ	minurəŋ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_
+7	ja	ja	PART	_	_	6	discourse	_	_
+8	puʂi	puʂi	ADV	_	Polarity=Neg	6	discourse	_	_
+9	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	6	aux	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	mini	mini	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nsubj	_	_
+12	gaganurəŋ	gaganurəŋ	NOUN	_	_	14	nsubj	_	_
+13	ja	ja	PART	_	_	14	discourse	_	_
+14	puʂi	puʂi	ADV	_	Polarity=Neg	6	parataxis	_	_
+15	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	kiənurəŋ	kiənurəŋ	PRON	_	PronType=Prs	20	nsubj	_	_
+18	pa-sə	pa-sə	AUX	_	Mood=Ind|VerbForm=Fin	20	aux	_	_
+19	ulia	ulia	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	20	ccomp	_	_
+20	madʑiə-na	madʑiə-na	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_42
+# text = tʂi qudəi-ni kieliə madʑiə-n-u?
+# text[eng] = “Can you speak Chinese?”
+1	tʂi	tʂi	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	qudəi-ni	qudəi-ni	PROPN	_	Case=Acc	3	obj	_	_
+3	kieliə	kieliə	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+4	madʑiə-n-u	madʑiə-n-u	AUX	_	Mood=Ind|Polarity=Pos|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_43
+# text = olu-dʑi wo. bi qudəi-ni ədziəŋ kieliə madʑiə-na
+# text[eng] = “Yes, I speak a little Chinese.”
+1	olu-dʑi	olu-dʑi	PART	_	_	2	discourse	_	_
+2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+4	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	qudəi-ni	qudəi-ni	PROPN	_	Case=Acc	7	obj	_	_
+6	ədziəŋ	ədziəŋ	ADJ	_	_	7	amod	_	_
+7	kieliə	kieliə	VERB	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
+8	madʑiə-na	madʑiə-na	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_44
+# text = tʂini biəri-tʂini qudəi kieliə madʑiə-n-u?
+# text[eng] = “Can your wife speak Chinese?”
+1	tʂini	tʂini	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	_
+2	biəri-tʂini	biəri-tʂini	NOUN	_	_	3	nsubj	_	_
+3	qudəi	kudəi	PROPN	_	Case=Acc	4	obj	_	_
+4	kieliə	kieliə	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+5	madʑiə-n-u	madʑiə-n-u	AUX	_	Mood=Ind|Polarity=Pos|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_45
+# text = ulia madʑiə-na, tərə ulia madʑiə-na. tərə dʑiʂi bidʑiə-ni əna torodu kieliən kieliə madʑiə-na
+# text[eng] = “No, she cannot. She can speak only our local language.”
+1	ulia	ulia	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	_
+2	madʑiə-na	madʑiə-na	AUX	_	Mood=Ind|VerbForm=Fin	1	aux	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	tərə	tərə	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	ulia	ulia	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	1	parataxis	_	_
+6	madʑiə-na	madʑiə-na	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+8	tərə	tərə	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+9	dʑiʂi	dʑiʂi	PART	_	_	14	discourse	_	_
+10	bidʑiə-ni	bidʑiə-ni	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+11	əna	əna	DET	_	PronType=Dem	12	det	_	_
+12	torodu	torodu	NOUN	_	_	14	obj	_	_
+13	kieliən	kieliən	ADJ	_	_	12	amod	_	_
+14	kieliə	kieliə	VERB	_	Mood=Ind|VerbForm=Fin	1	parataxis	_	_
+15	madʑiə-na	madʑiə-na	AUX	_	Mood=Ind|VerbForm=Fin	14	aux	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_46
+# text = ada-tʂini qala wo?
+# text[eng] = “Where is your father?”
+1	ada-tʂini	ada-tʂini	NOUN	_	_	3	nsubj	_	_
+2	qala	qala	ADV	_	_	3	advmod	_	_
+3	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_47
+# text = ada-mini giə-də wo. ana-mini ja giə-də wo
+# text[eng] = “My father is at home and my mother is also at home.”
+1	ada-mini	ada-mini	NOUN	_	_	3	nsubj	_	_
+2	giə-də	giə-də	NOUN	_	Case=Dat	3	obl	_	_
+3	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+5	ana-mini	ana-mini	NOUN	_	_	8	nsubj	_	_
+6	ja	ja	PART	_	_	8	discourse	_	_
+7	giə-də	giə-də	NOUN	_	Case=Dat	8	obl	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_48
+# text = tʂi duŋʨi-la-ni qala tai-wo?
+# text[eng] = “Where did you put your things?”
+1	tʂi	tʂi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	duŋʨi-la-ni	duŋʨi-la-ni	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
+3	qala	qala	ADV	_	_	4	advmod	_	_
+4	tai-wo	tai-wo	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_49
+# text = idzɪə-ku duŋʨi-la tsugui-də wo, jundzɪə-ku duŋʨi-la ʂira dʑiərə wo
+# text[eng] = “The food is in the cupboard and things for use are on the table.”
+1	idzɪə-ku	idzɪə-ku	VERB	_	Aspect=Imp|VerbForm=Fin	4	nsubj	_	_
+2	duŋʨi-la	duŋʨi-la	NOUN	_	Number=Plur	4	nmod	_	_
+3	tsugui-də	tsugui-də	NOUN	_	Case=Dat	4	obl	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	jundzɪə-ku	jundzɪə-ku	VERB	_	Aspect=Imp|VerbForm=Fin	10	nsubj	_	_
+7	duŋʨi-la	duŋʨi-la	NOUN	_	Number=Plur	10	nmod	_	_
+8	ʂira	ʂira	NOUN	_	_	10	obl	_	_
+9	dʑiərə	dʑiərə	NOUN	_	_	10	obl	_	_
+10	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_50
+# text = əndə gua idzi wai-n-u?
+# text[eng] = “Are there two chairs here?”
+1	əndə	əndə	ADV	_	_	4	advmod	_	_
+2	gua	gua	NUM	_	NumType=Card	4	nummod	_	_
+3	idzi	idzi	NOUN	_	_	4	nsubj	_	_
+4	wai-n-u	wai-n-u	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_51
+# text = puʂi wo, gua puʂi wo, guran idzi wo.
+# text[eng] = “No, they are not two, but three chairs.”
+1	puʂi	puʂi	VERB	_	Polarity=Neg	2	root	_	_
+2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	gua	gua	NUM	_	NumType=Card	5	nummod	_	_
+5	puʂi	puʂi	VERB	_	Polarity=Neg	6	root	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	guran	guran	NUM	_	NumType=Card	10	nummod	_	_
+9	idzi	idzi	NOUN	_	_	10	nsubj	_	_
+10	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Dongxiang_grammar_52
+# text = tʂima-də tʂiaja wai-n-u?
+# text[eng] = “Do you have tea?”
+1	tʂima-də	tʂima-də	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	tʂiaja	tʂiaja	NOUN	_	_	3	obj	_	_
+3	wai-n-u	wai-n-u	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_53
+# text = olu-dʑi wo, ma-də tʂaja wai-nə ma aliʑan toro tai-dʑi pa-sə bi ulia madʑiə-na
+# text[eng] = “Yes, I have, but I don't know where it is.”
+1	olu-dʑi	olu-dʑi	ADJ	_	_	2	advmod	_	_
+2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ma-də	ma-də	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	tʂaja	tʂaja	NOUN	_	_	6	obj	_	_
+6	wai-nə	wai-nə	AUX	_	Mood=Ind|VerbForm=Fin	2	conj	_	_
+7	ma	ma	PART	_	_	14	discourse	_	_
+8	aliʑan	aliʑan	ADV	_	_	10	advmod	_	_
+9	toro	toro	ADP	_	_	10	obl	_	_
+10	tai-dʑi	tai-dʑi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+11	pa-sə	pa-sə	PART	_	_	10	aux	_	_
+12	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	ulia	ulia	VERB	_	Polarity=Neg	14	aux	_	_
+14	madʑiə-na	madʑiə-na	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_54
+# text = tʂima-də xəitaŋ wai-n-u?
+# text[eng] = “Do you have brown sugar?”
+1	tʂima-də	tʂima-də	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	xəitaŋ	xəitaŋ	NOUN	_	_	3	obj	_	_
+3	wai-n-u	wai-n-u	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_55
+# text = anudu gi jag udu?
+# text[eng] = "What is the date today?"
+1	anudu	anudu	NOUN	_	_	4	obl	_	_
+2	gi	gi	PRON	_	PronType=Prs	4	nsubj	_	_
+3	jag	jag	NOUN	_	_	4	obj	_	_
+4	udu	udu	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_56
+# text = anudu gi idziu balinnian baja jixau çintçiwul wo
+# text[eng] = Today is Friday, August 1, 1980.
+1	anudu	anudu	NOUN	_	Case=Nom	8	obl:tmod	_	_
+2	gi	gi	AUX	_	Mood=Ind|VerbForm=Fin	8	cop	_	_
+3	idziu	idziu	NUM	_	NumType=Card	4	nummod	_	_
+4	balinnian	balinnian	NOUN	_	Case=Gen	8	nmod	_	_
+5	baja	baja	PROPN	_	_	8	nmod:tmod	_	_
+6	jixau	jixau	NOUN	_	Case=Gen	7	nmod	_	_
+7	çintçiwul	çintçiwul	PROPN	_	_	8	nsubj	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_57
+# text = tʂi ʂi jag ʂidzia olu wo?
+# text[eng] = When were you born?
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+2	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	5	cop	_	_
+3	jag	jag	PRON	_	PronType=Int	4	det	_	_
+4	ʂidzia	ʂidzia	NOUN	_	Case=Dat	5	obl:tmod	_	_
+5	olu	olu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_58
+# text = bi ʂi idziu sansannian tʂija sanhau olu wo.
+# text[eng] = I was born on July 3, 1933.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	_
+3	idziu	idziu	NUM	_	NumType=Card	4	nummod	_	_
+4	sansannian	sansannian	NOUN	_	Case=Gen	7	obl:tmod	_	_
+5	tʂija	tʂija	PROPN	_	_	7	obl:tmod	_	_
+6	sanhau	sanhau	NOUN	_	Case=Dat	7	obl:tmod	_	_
+7	olu	olu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_59
+# text = lidali jag ʂidzia pa mata bi dagai ʂi uda xoŋku ʂja wo ba
+# text[eng] = I forget the exact date. Probably, he left last February.
+1	lidali	lidali	ADV	_	Degree=Pos	5	advmod	_	_
+2	jag	jag	PRON	_	PronType=Int	3	det	_	_
+3	ʂidzia	ʂidzia	NOUN	_	Case=Dat	5	obj	_	_
+4	pa	pa	AUX	_	VerbForm=Conv	5	aux	_	_
+5	mata	mata	VERB	_	Tense=Past	0	root	_	_
+6	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+7	dagai	dagai	ADV	_	_	12	advmod	_	_
+8	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	12	aux	_	_
+9	uda	uda	NOUN	_	Case=Gen	12	obl:tmod	_	_
+10	xoŋku	xoŋku	NOUN	_	_	9	nmod	_	_
+11	ʂja	ʂja	NOUN	_	Case=Dat	12	obl:tmod	_	_
+12	wo	wo	VERB	_	Tense=Past	5	parataxis	_	_
+13	ba	ba	PART	_	PartType=Disc	12	discourse	_	_
+
+# sent_id = Dongxiang_grammar_60
+# text = dʑidʑian olu? liandʑian olu olu wo
+# text[eng] = What time is it? It is two o'clock, isn't it?
+1	dʑidʑian	dʑidʑian	PRON	_	PronType=Int	2	nsubj	_	_
+2	olu	olu	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+4	liandʑian	liandʑian	NUM	_	NumType=Card	5	nsubj	_	_
+5	olu	olu	VERB	_	Tense=Past	2	parataxis	_	_
+6	olu	olu	AUX	_	Aspect=Imp	5	aux	_	_
+7	wo	wo	AUX	_	PartType=ITP	5	aux	_	SpaceAfter=No
+
+# sent_id = Dongxiang_grammar_61
+# text = bi ulia madʑia mini biau gudula wo tʂini biau tanda wo
+# text[eng] = I don't know. My watch is fast, but yours is slow.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ulia	ulia	PART	_	Polarity=Neg	3	advmod	_	_
+3	madʑia	madʑia	VERB	_	Tense=Pres	0	root	_	_
+4	mini	mini	PRON	_	Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	biau	biau	NOUN	_	Case=Nom	7	nsubj	_	_
+6	gudula	gudula	ADJ	_	Aspect=Imp	7	xcomp	_	_
+7	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	parataxis	_	_
+8	tʂini	tʂini	PRON	_	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	biau	biau	NOUN	_	Case=Nom	11	nsubj	_	_
+10	tanda	tanda	ADJ	_	Aspect=Imp	11	xcomp	_	_
+11	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	7	conj	_	_
+
+# sent_id = Dongxiang_grammar_62
+# text = bi sumula liandʑian dʑifan dawa
+# text[eng] = I think it is several minutes passed two o'clock.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sumula	sumula	VERB	_	VerbForm=Conv	5	advcl	_	_
+3	liandʑian	liandʑian	NUM	_	Case=Abl|NumType=Card	5	obl	_	_
+4	dʑifan	dʑifan	NOUN	_	_	5	nsubj	_	_
+5	dawa	dawa	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Dongxiang_grammar_63
+# text = asa olu wo dau liandʑian olu ulia na.
+# text[eng] = No, it is not two o'clock yet.
+1	asa	asa	INTJ	_	_	2	discourse	_	_
+2	olu	olu	VERB	_	Aspect=Imp	0	root	_	_
+3	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	_
+4	dau	dau	ADV	_	_	6	advmod	_	_
+5	liandʑian	liandʑian	NUM	_	NumType=Card	6	nsubj	_	_
+6	olu	olu	VERB	_	Tense=Pres	2	parataxis	_	_
+7	ulia	ulia	PART	_	Polarity=Neg	6	advmod	_	_
+8	na	na	AUX	_	Tense=Pres	6	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_64
+# text = tsini baiu tsini dakumu ʂifan gudula dʑi wo.
+# text[eng] = Your watch is ten minutes fast.
+1	tsini	tsini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+2	baiu	baiu	NOUN	_	Case=Nom	6	nsubj	_	_
+3	tsini	tsini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	dakumu	dakumu	ADV	_	_	5	advmod	_	_
+5	ʂifan	ʂifan	NUM	_	NumType=Card	6	obl:tmod	_	_
+6	gudula	gudula	ADJ	_	Aspect=Imp	0	root	_	_
+7	dʑi	dʑi	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	6	aux	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	6	cop	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_65
+# text = saki dʑi sandʑian olu dana biau ni duiji jə.
+# text[eng] = When it is exactly three o'clock, let us compare our watches.
+1	saki	saki	VERB	_	Aspect=Imp	5	advcl	_	_
+2	dʑi	dʑi	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	1	aux	_	_
+3	sandʑian	sandʑian	NUM	_	NumType=Card	5	obl:tmod	_	_
+4	olu	olu	AUX	_	Mood=Ind|VerbForm=Fin	5	cop	_	_
+5	dana	dana	NOUN	_	Case=Nom	9	advcl	_	_
+6	biau	biau	NOUN	_	Case=Acc	9	obj	_	_
+7	ni	ni	PART	_	Case=Acc	6	case	_	_
+8	duiji	duiji	VERB	_	Aspect=Imp	0	root	_	_
+9	jə	jə	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Dongxiang_grammar_66
+# text = ada bi kuru wo.
+# text[eng] = It is time I must leave; I have to be on time.
+1	ada	ada	ADV	_	_	3	advmod	_	_
+2	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	kuru	kuru	VERB	_	Tense=Past	0	root	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_67
+# text = tʂi ulia uda na. ada dau atʃia wo.
+# text[eng] = You will not be late; it is still early.
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	ulia	ulia	PART	_	Polarity=Neg	3	advmod	_	_
+3	uda	uda	ADJ	_	Tense=Pres	0	root	_	_
+4	na	na	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+6	ada	ada	ADV	_	_	3	dep	_	_
+7	dau	dau	ADV	_	_	3	dep	_	_
+8	atʃia	atʃia	ADJ	_	_	3	dep	_	_
+9	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	dep	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	dep	_	_
+
+# sent_id = Dongxiang_grammar_68
+# text = bi sumula sə udu nia dʑindʑi da na tʂini nia udza ira na.
+# text[eng] = I want to arrange a time to come to see you.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sumula	sumula	VERB	_	VerbForm=Conv	0	root	_	_
+3	sə	sə	SCONJ	_	VerbForm=Conv	2	mark	_	_
+4	udu	udu	NOUN	_	Case=Nom	2	obj	_	_
+5	nia	nia	NUM	_	NumType=Card	4	nummod	_	_
+6	dʑindʑi	dʑindʑi	VERB	_	Case=Dat	2	obl	_	_
+7	da	da	ADP	_	Case=Dat	6	case	_	_
+8	na	na	PART	_	Ref=Yes	6	mark	_	_
+9	tʂini	tʂini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
+10	nia	nia	NUM	_	NumType=Card	12	nummod	_	_
+11	udza	udza	VERB	_	Mood=Ind|VerbForm=Fin	12	acl	_	_
+12	ira	ira	VERB	_	Tense=Pres	2	xcomp	_	_
+13	na	na	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_69
+# text = tʂugo ʂindʑiwu tʂi ali nia udu atʃi liaudza olu dʑi wo.
+# text[eng] = Except for Friday, you can come any day.
+1	tʂugo	tʂugo	ADP	_	_	2	case	_	_
+2	ʂindʑiwu	ʂindʑiwu	NOUN	_	Case=Nom	10	obl	_	_
+3	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+4	ali	ali	PRON	_	PronType=Int	6	det	_	_
+5	nia	nia	NUM	_	NumType=Card	6	nummod	_	_
+6	udu	udu	NOUN	_	Case=Nom	10	obl:tmod	_	_
+7	atʃi	atʃi	ADP	_	_	2	case	_	_
+8	liaudza	liaudza	VERB	_	_	10	advcl	_	_
+9	olu	olu	VERB	_	Aspect=Imp	10	aux	_	_
+10	dʑi	dʑi	VERB	_	Aspect=Imp	0	root	_	_
+11	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Dongxiang_grammar_70
+# text = mini kawon ira dʑi nia sara çiliu olu wo.
+# text[eng] = It has been a month since my son came back.
+1	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	kawon	kawon	NOUN	_	Case=Nom	7	nsubj	_	_
+3	ira	ira	VERB	_	Aspect=Imp	7	acl	_	_
+4	dʑi	dʑi	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	3	aux	_	_
+5	nia	nia	NUM	_	NumType=Card	6	nummod	_	_
+6	sara	sara	NOUN	_	Case=Nom	7	obl:tmod	_	_
+7	çiliu	çiliu	ADJ	_	_	0	root	_	_
+8	olu	olu	AUX	_	Tense=Past	7	cop	_	_
+9	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Dongxiang_grammar_71
+# text = tʂi nasuŋ giaduŋ olu wo?
+# text[eng] = How old are you?
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	nasuŋ	nasuŋ	NOUN	_	Case=Nom	4	obl	_	_
+3	giaduŋ	giaduŋ	PRON	_	PronType=Int	2	det	_	_
+4	olu	olu	VERB	_	Tense=Past	0	root	_	_
+5	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_72
+# text = bi qorug olu wo.
+# text[eng] = I am twenty.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	qorug	qorug	NUM	_	NumType=Card	0	root	_	_
+3	olu	olu	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_73
+# text = gaga ʂini siʂi da ulia olu na, olu dʑi wo u?
+# text[eng] = Your elder brother is not forty yet, is he?
+1	gaga	gaga	NOUN	_	Case=Nom	6	nsubj	_	_
+2	ʂini	ʂini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	nmod:poss	_	_
+3	siʂi	siʂi	NUM	_	NumType=Card	6	xcomp	_	_
+4	da	da	ADV	_	_	6	advmod	_	_
+5	ulia	ulia	PART	_	Polarity=Neg	6	advmod	_	_
+6	olu	olu	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	na	na	PART	_	Tense=Pres	6	aux	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	olu	olu	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	6	parataxis	_	_
+10	dʑi	dʑi	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	9	aux	_	_
+11	wo	wo	AUX	_	Mood=Int|VerbForm=Fin	9	aux	_	_
+12	u	u	PART	_	Mood=Int	9	discourse	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_74
+# text = bi tʂima sə fugia gua wo, mini dʑiau tʂima sə mila gua wo.
+# text[eng] = I am two years older than you and my younger brother is two years younger than you.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	tʂima	tʂima	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
+3	sə	sə	ADP	_	Case=Abl	2	case	_	_
+4	fugia	fugia	ADJ	_	Degree=Cmp	0	root	_	_
+5	gua	gua	NUM	_	NumType=Card	4	advmod	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	cop	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	9	nmod:poss	_	_
+9	dʑiau	dʑiau	NOUN	_	Case=Nom	12	nsubj	_	_
+10	tʂima	tʂima	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
+11	sə	sə	ADP	_	Case=Abl	10	case	_	_
+12	mila	mila	ADJ	_	Degree=Cmp	4	conj	_	_
+13	gua	gua	NUM	_	NumType=Card	12	advmod	_	_
+14	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	12	cop	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_75
+# text = ha gua la ʂi nasuŋ nia wo, igua ʂi goni dʑuntu ni wo.
+# text[eng] = They two are the same age and both of them were born in the year of the sheep.
+1	ha	ha	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	gua	gua	NUM	_	NumType=Card	1	nummod	_	_
+3	la	la	PART	_	Number=Plur	1	nmod	_	_
+4	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	5	cop	_	_
+5	nasuŋ	nasuŋ	NOUN	_	Case=Nom	0	root	_	_
+6	nia	nia	NUM	_	NumType=Card	5	nummod	_	_
+7	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	igua	igua	PRON	_	PronType=Tot	5	dep	_	_
+10	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	5	dep	_	_
+11	goni	goni	NOUN	_	Case=Nom	5	dep	_	_
+12	dʑuntu	dʑuntu	NOUN	_	Case=Ref	5	dep	_	_
+13	ni	ni	PART	_	Case=Ref	5	dep	_	_
+14	wo	wo	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_76
+# text = adzai mini tʂu fugia wo, bi dʑiu tʂu mila wo.
+# text[eng] = My elder sister is the eldest one and I am the youngest one.
+1	adzai	adzai	NOUN	_	Case=Nom	4	nsubj	_	_
+2	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+3	tʂu	tʂu	ADV	_	Degree=Sup	4	advmod	_	_
+4	fugia	fugia	ADJ	_	Degree=Pos	0	root	_	_
+5	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	cop	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	dʑiu	dʑiu	AUX	_	Mood=Ind|VerbForm=Fin	10	cop	_	_
+9	tʂu	tʂu	ADV	_	Degree=Sup	10	advmod	_	_
+10	mila	mila	ADJ	_	Degree=Pos	4	conj	_	_
+11	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_77
+# text = otʂin dʑiau mini təra sə mila guran nasuŋ wo, adzai ʂini təra sə tawun nasuŋ fugia wo.
+# text[eng] = My younger sister is three years younger than her; your elder sister is five years older than her.
+1	otʂin	otʂin	NOUN	_	Case=Nom	6	nsubj	_	_
+2	dʑiau	dʑiau	NOUN	_	Case=Nom	1	compound	_	_
+3	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+4	təra	təra	PRON	_	Case=Abl|PronType=Prs	6	obl	_	_
+5	sə	sə	ADP	_	Case=Abl	4	case	_	_
+6	mila	mila	ADJ	_	Degree=Cmp	0	root	_	_
+7	guran	guran	NUM	_	NumType=Card	8	nummod	_	_
+8	nasuŋ	nasuŋ	NOUN	_	Case=Nom	6	obl	_	_
+9	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	6	cop	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	adzai	adzai	NOUN	_	Case=Nom	17	nsubj	_	_
+12	ʂini	ʂini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	11	nmod:poss	_	_
+13	təra	təra	PRON	_	Case=Abl|PronType=Prs	17	obl	_	_
+14	sə	sə	ADP	_	Case=Abl	13	case	_	_
+15	tawun	tawun	NUM	_	NumType=Card	16	nummod	_	_
+16	nasuŋ	nasuŋ	NOUN	_	Case=Nom	17	obl	_	_
+17	fugia	fugia	ADJ	_	Degree=Cmp	6	conj	_	_
+18	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	17	cop	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Dongxiang_grammar_78
+# text = tʂi nia ta, bi nasuŋ giaduŋ olu na?
+# text[eng] = Guess how old I am.
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	nia	nia	NUM	_	NumType=Card	3	advmod	_	_
+3	ta	ta	VERB	_	VerbForm=Imp	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	nasuŋ	nasuŋ	NOUN	_	Case=Nom	8	obl	_	_
+7	giaduŋ	giaduŋ	PRON	_	PronType=Int	6	det	_	_
+8	olu	olu	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	na	na	AUX	_	Tense=Pres	8	aux	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_79
+# text = bi udʑi sə tʂi dakumu uʂi olu na.
+# text[eng] = I think you are fifty.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	udʑi	udʑi	VERB	_	VerbForm=Conv	0	root	_	_
+3	sə	sə	SCONJ	_	VerbForm=Conv	2	mark	_	_
+4	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+5	dakumu	dakumu	ADV	_	_	7	advmod	_	_
+6	uʂi	uʂi	NUM	_	NumType=Card	7	xcomp	_	_
+7	olu	olu	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	na	na	AUX	_	Tense=Pres	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Dongxiang_grammar_80
+# text = pəsa nia ʂindʑisi ʂi mini nasuŋ ʂiʂidʑi ʂiʂitʂi olu na.
+# text[eng] = The next Thursday I will be exactly forty-seven.
+1	pəsa	pəsa	ADJ	_	_	3	amod	_	_
+2	nia	nia	NUM	_	NumType=Card	3	nummod	_	_
+3	ʂindʑisi	ʂindʑisi	NOUN	_	Case=Nom	9	obl:tmod	_	_
+4	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	9	aux	_	_
+5	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+6	nasuŋ	nasuŋ	NOUN	_	Case=Nom	9	nsubj	_	_
+7	ʂiʂidʑi	ʂiʂidʑi	ADV	_	Degree=Abs	9	advmod	_	_
+8	ʂiʂitʂi	ʂiʂitʂi	NUM	_	NumType=Card	9	xcomp	_	_
+9	olu	olu	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	na	na	AUX	_	Tense=Pres	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Dongxiang_grammar_81
+# text = Abudu ni ha kawuŋ fugia ada qorilaq olu na.
+# text[eng] = Abudu's eldest son is twenty now.
+1	Abudu	Abudu	PROPN	_	Case=Gen	4	nmod:poss	_	_
+2	ni	ni	PART	_	Case=Gen	1	case	_	_
+3	ha	ha	DET	_	PronType=Dem	4	det	_	_
+4	kawuŋ	kawuŋ	NOUN	_	Case=Nom	8	nsubj	_	_
+5	fugia	fugia	ADJ	_	Degree=Sup	4	amod	_	_
+6	ada	ada	ADV	_	_	8	advmod	_	_
+7	qorilaq	qorilaq	NUM	_	NumType=Card	8	xcomp	_	_
+8	olu	olu	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	na	na	AUX	_	Tense=Pres	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Dongxiang_grammar_82
+# text = tʂi dʑiaxuŋ gia wo u?
+# text[eng] = Are you married?
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	dʑiaxuŋ	dʑiaxuŋ	NOUN	_	Case=Nom	3	obj	_	_
+3	gia	gia	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	wo	wo	AUX	_	Mood=Int|VerbForm=Fin	3	aux	_	_
+5	u	u	PART	_	Mood=Int	3	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_83
+# text = dau ui jə
+# text[eng] = No, I am not married.
+1	dau	dau	INTJ	_	Discourse=Stil|Polarity=Neg	3	discourse	_	_
+2	ui	ui	PART	_	Polarity=Neg	3	advmod	_	_
+3	jə	jə	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	_
+
+# sent_id = Dongxiang_grammar_84
+# text = tani gia kuŋ giaduŋ wo?
+# text[eng] = How many peoples are there in your family?
+1	tani	tani	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	gia	gia	NOUN	_	Case=Dat	5	obl	_	_
+3	kuŋ	kuŋ	NOUN	_	Number=Plur	5	nsubj	_	_
+4	giaduŋ	giaduŋ	NUM	_	PronType=Int	3	nummod	_	_
+5	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_85
+# text = bidzian gia igua doloŋ kuŋ wo
+# text[eng] = There are seven peoples in my family.
+1	bidzian	bidzian	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	gia	gia	NOUN	_	Case=Dat	6	obl	_	_
+3	igua	igua	DET	_	PronType=Tot	5	det	_	_
+4	doloŋ	doloŋ	NUM	_	NumType=Card	5	nummod	_	_
+5	kuŋ	kuŋ	NOUN	_	Number=Plur	6	nsubj	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_86
+# text = otɕin dziau-mini dziaxuŋ giadzi ənian olu
+# text[eng] = My younger sister has been married for two years.
+1	otɕin	otɕin	NOUN	_	Gender=Fem	3	nsubj	_	_
+2	dziau-mini	dziau	NOUN	_	Derivation=Kin|Poss=Yes	1	appos	_	_
+3	dziaxuŋ	dziaxuŋ	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	_
+4	giadzi	giadzi	VERB	_	VerbForm=Conv	3	compound:svc	_	_
+5	ənian	ənian	NOUN	_	Number=Plur|NumType=Card	3	obl:tmod	_	_
+6	olu	olu	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+
+# sent_id = Dongxiang_grammar_87
+# text = hə kian dziaxuŋ gia?
+# text[eng] = Who did she marry?
+1	hə	hə	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	kian	kian	PRON	_	Case=Com|PronType=Int	4	obl:com	_	_
+3	dziaxuŋ	dziaxuŋ	NOUN	_	VerbForm=Conv	4	compound:lvc	_	_
+4	gia	gia	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Dongxiang_grammar_88
+# text = hə nia toladzi kaiji-tɕaŋ kuŋ dziaxuŋ gia
+# text[eng] = She married a tractor driver.
+1	hə	hə	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	nia	nia	NUM	_	NumType=Card	6	nummod	_	_
+3	toladzi	toladzi	NOUN	_	_	4	compound	_	_
+4	kaiji-tɕaŋ	kaiji	NOUN	_	VerbForm=Part	6	compound	_	_
+5	kuŋ	kuŋ	NOUN	_	Case=Com|Number=Sing	6	appos	_	_
+6	dziaxuŋ	dziaxuŋ	NOUN	_	VerbForm=Conv	7	compound:lvc	_	_
+7	gia	gia	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_89
+# text = hə kəwo wai
+# text[eng] = Do they have any baby?
+1	hə	hə	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	obl:poss	_	_
+2	kəwo	kəwo	NOUN	_	Number=Plur	3	obj	_	_
+3	wai	wai	VERB	_	Aspect=Imp|Mood=Int|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_90
+# text = hə maliadu sara nia kəwoŋ olu
+# text[eng] = They just had a baby last month.
+1	hə	hə	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	maliadu	maliadu	ADV	_	_	6	advmod	_	_
+3	sara	sara	NOUN	_	Case=Dat	6	obl:tmod	_	_
+4	nia	nia	NUM	_	NumType=Card	5	nummod	_	_
+5	kəwoŋ	kəwoŋ	NOUN	_	Number=Sing	6	obj	_	_
+6	olu	olu	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_91
+# text = mini kəwoŋ dzunbai gia liuja dzixuŋ gia
+# text[eng] = My son plans to get married in July.
+1	mini	mini	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	kəwoŋ	kəwoŋ	NOUN	_	Number=Sing	7	nsubj	_	_
+3	dzunbai	dzunbai	NOUN	_	_	4	compound:lvc	_	_
+4	gia	gia	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	7	ccomp	_	_
+5	liuja	liuja	PROPN	_	Case=Dat	4	obl:tmod	_	_
+6	dzixuŋ	dzixuŋ	NOUN	_	VerbForm=Conv	7	compound:lvc	_	_
+7	gia	gia	VERB	_	Mood=Ind|Tense=NonPast|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_92
+# text = hə jaŋ ʂidzia dziaxuŋ gia dau dziadzin əsə gia wo
+# text[eng] = They have not decided when they will get married.
+1	hə	hə	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+2	jaŋ	jaŋ	PRON	_	PronType=Int	3	det	_	_
+3	ʂidzia	ʂidzia	NOUN	_	Case=Dat	5	obl:tmod	_	_
+4	dziaxuŋ	dziaxuŋ	NOUN	_	VerbForm=Conv	5	compound:lvc	_	_
+5	gia	gia	VERB	_	Aspect=Imp|Case=Acc	10	ccomp	_	_
+6	dau	dau	ADV	_	_	10	advmod	_	_
+7	dziadzin	dziadzin	NOUN	_	_	10	obj	_	_
+8	əsə	əsə	PART	_	Polarity=Neg	10	advmod	_	_
+9	gia	gia	VERB	_	Aspect=Imp	10	compound:lvc	_	_
+10	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_93
+# text = hə sundzi igua fugiada
+# text[eng] = Their grandchildren are all grown up.
+1	hə	hə	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
+2	sundzi	sundzi	NOUN	_	Number=Plur	4	nsubj	_	_
+3	igua	igua	DET	_	PronType=Tot	2	det	_	_
+4	fugiada	fugiada	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_94
+# text = tʂi qala olu wo?
+# text[eng] = Where were you born?
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	qala	qala	PRON	_	PronType=Int	3	obl:loc	_	_
+3	olu	olu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_95
+# text = bi əndə xanda ɕolo uitu nia dzəndzi dzəndzi olu wo
+# text[eng] = I was born in the small town not far from here.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	əndə	əndə	ADV	_	Case=Abl	4	obl	_	_
+3	xanda	xanda	ADV	_	Degree=Pos	4	advmod	_	_
+4	ɕolo	ɕolo	ADJ	_	Degree=Pos	8	amod	_	_
+5	uitu	uitu	PART	_	Polarity=Neg	4	advmod	_	_
+6	nia	nia	NUM	_	NumType=Card	8	nummod	_	_
+7	dzəndzi	dzəndzi	NOUN	_	Case=Dat	9	obl:loc	_	_
+8	dzəndzi	dzəndzi	NOUN	_	_	7	compound	_	_
+9	olu	olu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+10	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	9	aux	_	_
+
+# sent_id = Dongxiang_grammar_96
+# text = tʂi qala fugiada wo?
+# text[eng] = Where did you grow up?
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	qala	qala	PRON	_	PronType=Int	3	obl:loc	_	_
+3	fugiada	fugiada	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_97
+# text = bi dziu əna arəŋ fugiada wo
+# text[eng] = I grew up in this village.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	dziu	dziu	ADV	_	_	6	advmod	_	_
+3	əna	əna	DET	_	PronType=Dem	4	det	_	_
+4	arəŋ	arəŋ	NOUN	_	Case=Dat	6	obl:loc	_	_
+5	fugiada	fugiada	VERB	_	Aspect=Perf|VerbForm=Part	6	compound:lvc	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_98
+# text = hə badza sau ɕitɕi oul
+# text[eng] = He had lived in the city until he was seventeen.
+1	hə	hə	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	badza	badza	NOUN	_	Case=Loc	3	obl:loc	_	_
+3	sau	sau	VERB	_	Aspect=Imp|VerbForm=Conv	5	advcl	_	_
+4	ɕitɕi	ɕitɕi	NUM	_	NumType=Card	5	obl:tmod	_	_
+5	oul	oul	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_99
+# text = tʂi qala sau wo?
+# text[eng] = Where do you live?
+1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	qala	qala	PRON	_	PronType=Int	3	obl:loc	_	_
+3	sau	sau	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
+4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Dongxiang_grammar_100
+# text = bi əna arəŋ nanbangia nia dziaŋ wafaŋ sau wo
+# text[eng] = I live in a house at the south of village.
+1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	əna	əna	DET	_	PronType=Dem	3	det	_	_
+3	arəŋ	arəŋ	NOUN	_	Case=Gen	4	nmod	_	_
+4	nanbangia	nanbangia	NOUN	_	Case=Dat	8	obl:loc	_	_
+5	nia	nia	NUM	_	NumType=Card	6	nummod	_	_
+6	dziaŋ	dziaŋ	NOUN	_	_	7	compound	_	_
+7	wafaŋ	wafaŋ	NOUN	_	Case=Dat	8	obl:loc	_	_
+8	sau	sau	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
+9	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	8	aux	_	_
+
+# sent_id = Dongxiang_grammar_101
+# text = dawa ərɕinian əna oroŋ oloŋ biandzi
+# text[eng] = There were a lot of changes in here in the past twenty years.
+1	dawa	dawa	ADV	_	Aspect=Perf	6	advmod	_	_
+2	ərɕinian	ərɕinian	NOUN	_	Case=Dat|NumType=Card	6	obl:tmod	_	_
+3	əna	əna	DET	_	PronType=Dem	4	det	_	_
+4	oroŋ	oroŋ	NOUN	_	Case=Dat	6	obl:loc	_	_
+5	oloŋ	oloŋ	DET	_	PronType=Ind	6	nsubj	_	_
+6	biandzi	biandzi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = Dongxiang_grammar_102
+# text = hədziaŋ gia igua ɕi dawa ɕinian baira wo
+# text[eng] = All those houses were built in the past ten years.
+1	hədziaŋ	hədziaŋ	DET	_	PronType=Dem	2	det	_	_
+2	gia	gia	NOUN	_	Number=Plur	7	nsubj:pass	_	_
+3	igua	igua	DET	_	PronType=Tot	2	det	_	_
+4	ɕi	ɕi	AUX	_	Mood=Ind|VerbForm=Fin	7	aux:pass	_	_
+5	dawa	dawa	ADV	_	Aspect=Perf	7	advmod	_	_
+6	ɕinian	ɕinian	NOUN	_	Case=Dat|NumType=Card	7	obl:tmod	_	_
+7	baira	baira	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	_
+8	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	_
+
+# sent_id = Dongxiang_grammar_103
+# text = tʂini giabi tʂima gau wai?
+# text[eng] = Are your neighbors friendly to you?
+1	tʂini	tʂini	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	giabi	giabi	NOUN	_	Number=Plur	5	nsubj	_	_
+3	tʂima	tʂima	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+4	gau	gau	ADJ	_	Degree=Pos	5	xcomp	_	_
+5	wai	wai	VERB	_	Aspect=Imp|Mood=Int|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Dongxiang_grammar_104
+# text = bidzian nia nia minjbai no wo
+# text[eng] = We all have known each other well.
+1	bidzian	bidzian	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	nia	nia	DET	_	PronType=Tot	1	det	_	_
+3	nia	nia	PRON	_	PronType=Rcp|Reflex=Yes	4	obj	_	_
+4	minjbai	minjbai	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+5	no	no	PART	_	_	4	advmod	_	_
+6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	aux	_	_
+
+# sent_id = Dongxiang_grammar_105
+# text = tʂini giabi hə nia gia ɕi giadza bandzi irə wo?
+# text[eng] = When did your next door neighbor move in?
+1	tʂini	tʂini	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	giabi	giabi	NOUN	_	Case=Gen	10	nsubj	_	_
+3	hə	hə	DET	_	PronType=Dem	4	det	_	_
+4	nia	nia	NUM	_	NumType=Card	5	nummod	_	_
+5	gia	gia	NOUN	_	_	2	appos	_	_
+6	ɕi	ɕi	AUX	_	Mood=Ind|VerbForm=Fin	10	aux	_	_
+7	giadza	giadza	PRON	_	PronType=Int	10	obl:tmod	_	_
+8	bandzi	bandzi	VERB	_	Aspect=Imp|VerbForm=Conv	10	compound:svc	_	_
+9	irə	irə	VERB	_	Aspect=Perf|VerbForm=Part	10	compound:svc	_	_
+10	wo	wo	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	10	punct	_	_
+
