@@ -642,10 +642,10 @@
 # text = puʂi wo, gua puʂi wo, guran idzi wo.
 # text[eng] = “No, they are not two, but three chairs.”
 1	puʂi	puʂi	VERB	_	Polarity=Neg	0	root	_	_
-2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	gua	gua	NUM	_	NumType=Card	5	nummod	_	_
-5	puʂi	puʂi	VERB	_	Polarity=Neg	0	root	_	_
+5	puʂi	puʂi	VERB	_	Polarity=Neg	1	parataxis	_	_
 6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	guran	guran	NUM	_	NumType=Card	10	nummod	_	_
@@ -674,7 +674,7 @@
 8	aliʑan	aliʑan	ADV	_	_	10	advmod	_	_
 9	toro	toro	ADP	_	_	10	obl	_	_
 10	tai-dʑi	tai-dʑi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
-11	pa-sə	pa-sə	AUX	_	_	10	aux	_	_
+11	pa-sə	pa	AUX	_	_	10	aux	_	_
 12	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	ulia	ulia	AUX	_	Polarity=Neg	14	aux	_	_
 14	madʑiə-na	madʑiə	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
@@ -700,7 +700,7 @@
 # text = anudu gi idziu balinnian baja jixau çintçiwul wo
 # text[eng] = Today is Friday, August 1, 1980.
 1	anudu	anudu	NOUN	_	Case=Nom	8	obl:tmod	_	_
-2	gi	gi	AUX	_	Mood=Ind|VerbForm=Fin	8	cop	_	_
+2	gi	gi	AUX	_	Mood=Ind|VerbForm=Fin	8	aux	_	_
 3	idziu	idziu	NUM	_	NumType=Card	4	nummod	_	_
 4	balinnian	balinnian	NOUN	_	Case=Gen	8	nmod	_	_
 5	baja	baja	PROPN	_	_	8	nmod:tmod	_	_
@@ -816,7 +816,7 @@
 1	saki	saki	VERB	_	Aspect=Imp	5	advcl	_	_
 2	dʑi	dʑi	AUX	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	1	aux	_	_
 3	sandʑian	sandʑian	NUM	_	NumType=Card	5	obl:tmod	_	_
-4	olu	olu	AUX	_	Mood=Ind|VerbForm=Fin	5	cop	_	_
+4	olu	olu	AUX	_	Mood=Ind|VerbForm=Fin	5	aux	_	_
 5	dana	dana	NOUN	_	Case=Nom	8	advcl	_	_
 6	biau	biau	NOUN	_	Case=Acc	8	obj	_	_
 7	ni	ni	PART	_	Case=Acc	6	case	_	_
@@ -839,7 +839,7 @@
 1	tʂi	tʂi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	ulia	ulia	PART	_	Polarity=Neg	3	advmod	_	_
 3	uda	uda	ADJ	_	Tense=Pres	0	root	_	_
-4	na	na	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+4	na	na	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 6	ada	ada	ADV	_	_	3	dep	_	_
 7	dau	dau	ADV	_	_	3	dep	_	_
@@ -891,7 +891,7 @@
 5	nia	nia	NUM	_	NumType=Card	6	nummod	_	_
 6	sara	sara	NOUN	_	Case=Nom	7	obl:tmod	_	_
 7	çiliu	çiliu	ADJ	_	_	0	root	_	_
-8	olu	olu	AUX	_	Tense=Past	7	cop	_	_
+8	olu	olu	AUX	_	Tense=Past	7	aux	_	_
 9	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -910,7 +910,7 @@
 # text[eng] = I am twenty.
 1	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	qorug	qorug	NUM	_	NumType=Card	0	root	_	_
-3	olu	olu	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	_
+3	olu	olu	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	aux	_	_
 4	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	2	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -979,7 +979,7 @@
 5	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-8	dʑiu	dʑiu	AUX	_	Mood=Ind|VerbForm=Fin	10	cop	_	_
+8	dʑiu	dʑiu	AUX	_	Mood=Ind|VerbForm=Fin	10	aux	_	_
 9	tʂu	tʂu	ADV	_	Degree=Sup	10	advmod	_	_
 10	mila	mila	ADJ	_	Degree=Pos	4	conj	_	_
 11	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
