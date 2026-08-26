@@ -78,7 +78,7 @@
 8	long	long	NOUN	_	_	9	obj	_	_
 9	guilugva-zhi	guilugva-zhi	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	wo	wo	PRON	_	PronType=Prs	9	iobj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	5	punct	_	_
+11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Dongxiang_grammar_8
 # text = Nie ganzi jiesung wo ibeizi doyi-zhi siragvada-ne. Moran-ni usu
@@ -243,7 +243,7 @@
 10	ghua	ghua	NUM	_	NumType=Card	12	nummod	_	_
 11	chugu	chugu	NOUN	_	_	12	iobj	_	_
 12	kere-ne	kere-ne	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	6	punct	_	_
+13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Dongxiang_grammar_20
 # text = turan nie kozi hulan qiqiu yaoyaobaibai piaoyi-zhi bao-zhuo.
@@ -676,7 +676,7 @@
 10	tai-dʑi	tai-dʑi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 11	pa-sə	pa	AUX	_	_	10	aux	_	_
 12	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
-13	ulia	ulia	AUX	_	Polarity=Neg	14	aux	_	_
+13	ulia	ulia	VERB	_	Polarity=Neg	14	xcomp	_	_
 14	madʑiə-na	madʑiə	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 
 # sent_id = Dongxiang_grammar_54
