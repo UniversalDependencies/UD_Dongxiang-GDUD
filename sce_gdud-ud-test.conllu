@@ -16,7 +16,7 @@
 # text = xoyir longk süü.
 # text[eng] = Two bottles of milk
 1	xoyir	xoyir	NUM	_	NumType=Card	2	nummod	_	_
-2	longk	longk	NOUN	_	Number=Plur	3	obl	_	_
+2	longk	longk	NOUN	_	Number=Plur	3	nmod	_	_
 3	süü	süü	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -27,7 +27,7 @@
 2	Jiashi	Jiashi	PROPN	_	Number=Sing	6	nsubj	_	_
 3	rake	rake	NOUN	_	_	6	obj	_	_
 4	dampe	dampe	NOUN	_	Number=Plur	3	nummod	_	_
-5	gvarang	gvarang	NOUN	_	_	3	obl	_	_
+5	gvarang	gvarang	NOUN	_	_	3	nmod	_	_
 6	u-je	u-je	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -35,11 +35,11 @@
 # text = Ghua hamusa mienguji Ghua hamusa antan.
 # text[eng] = Two plates of silver and two plates of gold
 1	Ghua	Ghua	NUM	_	NumType=Card	2	nummod	_	_
-2	hamusa	hamusa	NOUN	_	Number=Plur	3	obl	_	_
-3	miengu	miengu	NOUN	_	_	7	conj	_	SpaceAfter=No
+2	hamusa	hamusa	NOUN	_	Number=Plur	3	nmod	_	_
+3	miengu	miengu	NOUN	_	_	7	parataxis	_	SpaceAfter=No
 4	ji	ji	CCONJ	_	_	3	cc	_	_
 5	Ghua	Ghua	NUM	_	NumType=Card	6	nummod	_	_
-6	hamusa	hamusa	NOUN	_	Number=Plur	7	obl	_	_
+6	hamusa	hamusa	NOUN	_	Number=Plur	7	nmod	_	_
 7	antan	antan	NOUN	_	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -72,12 +72,12 @@
 2	qioron	qioron	NOUN	_	Number=Sing	5	obj	_	_
 3	jier-ne	jier-ne	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	5	acl:relcl	_	_
 4	chighan	chighan	ADJ	_	_	5	amod	_	_
-5	xiyangbaibu-ni	xiyangbaibu	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No|Case=Succ
+5	xiyangbaibu-ni	xiyangbaibu	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No|Case=Succ
 6	horo-dene	horo-dene	VERB	_	_	5	advcl	_	VerbForm=Succ
 7	yiqiao	yiqiao	PRON	_	PronType=Prs	9	nsubj	_	_
 8	long	long	NOUN	_	_	9	obj	_	_
 9	guilugva-zhi	guilugva-zhi	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	wo	wo	PRON	_	PronType=Prs	9	obj	_	SpaceAfter=No
+10	wo	wo	PRON	_	PronType=Prs	9	iobj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Dongxiang_grammar_8
@@ -92,7 +92,7 @@
 7	siragva	siragva	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	da-ne	da-ne	VERB	_	Mood=Imp|VerbForm=Fin	7	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
-10	Moran-ni	Moran	NOUN	_	Case=Gen	11	obl	_	_
+10	Moran-ni	Moran	NOUN	_	Case=Gen	11	nmod	_	_
 11	usu	usu	NOUN	_	_	7	parataxis	_	_
 
 # sent_id = Dongxiang_grammar_9
@@ -101,7 +101,7 @@
 1	Ede	ede	ADV	_	_	3	advmod	_	_
 2	mini	mini	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	gie-de	gie-de	NOUN	_	Number=Sing	0	root	_	_
-4	jieron	jieron	NOUN	_	_	3	obl	_	_
+4	jieron	jieron	NOUN	_	_	3	nmod	_	_
 5	ganzi	ganzi	NUM	_	NumType=Card	6	nummod	_	_
 6	gonzhelie	gonzhelie	NOUN	_	_	3	obj	_	SpaceAfter=No
 7	wo	wo	PRON	_	PronType=Prs	6	det	_	_
@@ -131,7 +131,7 @@
 # text = Bijien-ni gie-de jieron matu kun wo.
 # text[eng] = There are four members in our home
 1	Bijien-ni	Bijien	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
-2	gie-de	gie-de	NOUN	_	Number=Sing	5	obl	_	_
+2	gie-de	gie-de	NOUN	_	Number=Sing	5	nmod	_	_
 3	jieron	jieron	NOUN	_	_	5	nsubj	_	_
 4	matu	matu	NUM	_	NumType=Card	5	nummod	_	_
 5	kun	kun	NOUN	_	_	0	root	_	_
@@ -142,7 +142,7 @@
 # text = Bijienni gie-de igua dolong kun wo.
 # text[eng] = There are seven persons (members) in our family
 1	Bijienni	Bijien	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nmod:poss	_	_
-2	gie-de	gie-de	NOUN	_	Number=Sing	5	obl	_	_
+2	gie-de	gie-de	NOUN	_	Number=Sing	5	nmod	_	_
 3	igua	igua	ADV	_	_	5	advmod	_	_
 4	dolong	dolong	NUM	_	NumType=Card	5	nummod	_	_
 5	kun	kun	NOUN	_	_	0	root	_	_
@@ -153,7 +153,7 @@
 # text = Tani gie-de kun giedun wo?
 # text[eng] = How many people do you have in your family?
 1	Tani	Tani	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	gie-de	gie-de	NOUN	_	Number=Sing	3	obl	_	_
+2	gie-de	gie-de	NOUN	_	Number=Sing	3	nmod	_	_
 3	kun	kun	NOUN	_	_	0	root	_	_
 4	giedun	giedun	ADV	_	_	3	advmod	_	_
 5	wo	wo	PRON	_	PronType=Prs	3	det	_	SpaceAfter=No
@@ -192,7 +192,7 @@
 4	dahhala-zhuo	dahhala-zhuo	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	3	xcomp	_	SpaceAfter=No
 5	nie	nie	NUM	_	NumType=Card	6	nummod	_	_
 6	kozi	kozi	NOUN	_	_	7	nsubj	_	_
-7	oqin	oqin	NOUN	_	_	9	conj	_	SpaceAfter=No
+7	oqin	oqin	NOUN	_	_	9	parataxis	_	SpaceAfter=No
 8	kieli	kieli	PRON	_	PronType=Prs	9	det	_	_
 9	fugieda-zhuo	fugieda-zhuo	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	3	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -213,9 +213,9 @@
 # text = Ingiese wijien meliewijien melie shida-se nie kozi igvanie kozi nie kozi ochira-zho.
 # text[eng] = In front of the door, on the side of the (front) door, there was a bowl, a (pair of) chopsticks and a glass
 1	Ingiese	Ingiese	ADV	_	_	3	advmod	_	_
-2	wijien	wijien	NOUN	_	_	3	obl	_	_
+2	wijien	wijien	NOUN	_	_	3	nmod	_	_
 3	melie	melie	NOUN	_	_	9	obl	_	SpaceAfter=No
-4	wijien	wijien	NOUN	_	_	5	obl	_	_
+4	wijien	wijien	NOUN	_	_	5	nmod	_	_
 5	melie	melie	NOUN	_	_	9	obl	_	_
 6	shida-se	shida-se	ADP	_	Case=Abl	5	case	_	_
 7	nie	nie	NUM	_	NumType=Card	8	nummod	_	_
@@ -232,7 +232,7 @@
 # text = Khuina shishi yizhi ghua beizikere-ne ghua igvaghua chugu kere-ne.
 # text[eng] = After some time, she always wanted two glasses, two bowls and two (a pair of) chopsticks
 1	Khuina	khuina	ADV	_	_	3	advmod	_	_
-2	shi	shi	NOUN	_	_	3	obl	_	SpaceAfter=No
+2	shi	shi	NOUN	_	_	3	nmod	_	SpaceAfter=No
 3	shi	shi	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	yizhi	yizhi	ADV	_	_	6	advmod	_	_
 5	ghua	ghua	NUM	_	NumType=Card	6	nummod	_	_
@@ -241,20 +241,20 @@
 8	ghua	ghua	NUM	_	NumType=Card	9	nummod	_	_
 9	igva	igva	NOUN	_	_	12	obj	_	SpaceAfter=No
 10	ghua	ghua	NUM	_	NumType=Card	12	nummod	_	_
-11	chugu	chugu	NOUN	_	_	12	obj	_	_
+11	chugu	chugu	NOUN	_	_	12	iobj	_	_
 12	kere-ne	kere-ne	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Dongxiang_grammar_20
 # text = turan nie kozi hulan qiqiu yaoyaobaibai piaoyi-zhi bao-zhuo.
 # text[eng] = All of a sudden, a swinging red balloon appeared from above
-1	turan	turan	ADV	_	_	9	advmod	_	_
+1	turan	turan	ADV	_	_	8	advmod	_	_
 2	nie	nie	NUM	_	NumType=Card	3	nummod	_	_
-3	kozi	kozi	NOUN	_	_	9	nsubj	_	_
+3	kozi	kozi	NOUN	_	_	8	nsubj	_	_
 4	hulan	hulan	ADJ	_	_	5	amod	_	_
 5	qiqiu	qqiu	NOUN	_	_	3	compound	_	_
-6	yaoyaobaibai	yaoyaobaibai	VERB	_	VerbForm=Conv	9	advmod	_	_
-7	piaoyi-zhi	piaoyi-zhi	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	9	compound:svc	_	_
+6	yaoyaobaibai	yaoyaobaibai	VERB	_	VerbForm=Conv	8	advcl	_	_
+7	piaoyi-zhi	piaoyi-zhi	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	8	compound:svc	_	_
 8	bao-zhuo	bao-zhuo	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -262,7 +262,7 @@
 # text = Tenga huapin huina ghuran boozi yyi-na.
 # text[eng] = There are three newspapers behind that vase
 1	Tenga	tenga	DET	_	PronType=Dem	2	det	_	_
-2	huapin	huapin	NOUN	_	_	5	obl	_	_
+2	huapin	huapin	NOUN	_	_	5	nmod	_	_
 3	huina	huina	NUM	_	NumType=Card	4	nummod	_	_
 4	ghuran	ghuran	NOUN	_	_	5	compound	_	_
 5	boozi	boozi	NOUN	_	_	6	nsubj	_	_
@@ -273,7 +273,7 @@
 # text = Buda-ne ger-te orti dolon kun be.
 # text[eng] = There are seven persons in my family
 1	Buda-ne	buda	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
-2	ger-te	ger-te	NOUN	_	_	5	obl	_	_
+2	ger-te	ger-te	NOUN	_	_	5	nmod	_	_
 3	orti	orti	NUM	_	NumType=Card	5	nummod	_	_
 4	dolon	dolon	NUM	_	NumType=Card	5	nummod	_	_
 5	kun	kun	NOUN	_	_	6	nsubj	_	_
@@ -286,11 +286,11 @@
 1	Sho-wa	sho	VERB	_	Polarity=Neg|Tense=Past	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ghuar	ghuar	NUM	_	NumType=Card	5	nummod	_	_
-4	sho-wa	sho	VERB	_	Polarity=Neg|Tense=Past	5	aux	_	_
+4	sho-wa	sho	AUX	_	Polarity=Neg|Tense=Past	5	aux	_	_
 5	Yizi	yizi	NOUN	_	_	7	nsubj	_	_
 6	bandang	bandang	NUM	_	NumType=Card	7	nummod	_	_
 7	ghurang	ghurang	NOUN	_	_	0	root	_	SpaceAfter=No
-8	wi	wi	VERB	_	Mood=Ind|VerbForm=Fin	7	cop	_	SpaceAfter=No|Verbalizer=Yes
+8	wi	wi	AUX	_	Mood=Ind|VerbForm=Fin	7	cop	_	SpaceAfter=No|Verbalizer=Yes
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Dongxiang_grammar_24
@@ -307,7 +307,7 @@
 # sent_id = Dongxiang_grammar_25
 # text = Ditu diere kelisa Xining-du san-jia huanguer bang.
 # text[eng] = On this map there are three restaurants in Xining
-1	Ditu	ditu	NOUN	_	_	3	obl	_	_
+1	Ditu	ditu	NOUN	_	_	3	nmod	_	_
 2	diere	diere	ADP	_	_	1	case	_	_
 3	kelisa	kelisa	NOUN	_	_	7	nsubj	_	_
 4	Xining-du	Xining-du	PROPN	_	Case=Loc	3	nmod	_	_
@@ -321,7 +321,7 @@
 # text[eng] = Now there are two roads here
 1	Niker	niker	ADV	_	_	5	advmod	_	_
 2	jiura	jiura	ADV	_	_	1	advmod	_	_
-3	ning-du	ning-du	PROPN	_	Case=Loc	5	obl	_	_
+3	ning-du	ning-du	PROPN	_	Case=Loc	5	nmod	_	_
 4	mer	mer	NUM	_	NumType=Card	5	nummod	_	_
 5	liang-tiao	liang-tiao	NOUN	_	_	6	nsubj	_	SpaceAfter=No
 6	bang	bang	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -519,7 +519,7 @@
 2	niə	niə	NUM	_	NumType=Card	3	nummod	_	_
 3	ʂuang	ʂuang	NOUN	_	_	6	nsubj	_	_
 4	gudusuŋ	gudusuŋ	NOUN	_	_	3	nmod	_	_
-5	ʂi	ʂi	VERB	_	Mood=Ind|VerbForm=Fin	6	cop	_	_
+5	ʂi	ʂi	AUX	_	Mood=Ind|VerbForm=Fin	6	cop	_	_
 6	minurəŋ	minurəŋ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_
 7	ja	ja	PART	_	_	6	discourse	_	_
 8	puʂi	puʂi	ADV	_	Polarity=Neg	6	discourse	_	_
@@ -676,7 +676,7 @@
 10	tai-dʑi	tai-dʑi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 11	pa-sə	pa-sə	PART	_	_	10	aux	_	_
 12	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
-13	ulia	ulia	VERB	_	Polarity=Neg	14	aux	_	_
+13	ulia	ulia	AUX	_	Polarity=Neg	14	aux	_	_
 14	madʑiə-na	madʑiə-na	AUX	_	Mood=Ind|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 
 # sent_id = Dongxiang_grammar_54
@@ -876,7 +876,7 @@
 6	udu	udu	NOUN	_	Case=Nom	10	obl:tmod	_	_
 7	atʃi	atʃi	ADP	_	_	2	case	_	_
 8	liaudza	liaudza	VERB	_	_	10	advcl	_	_
-9	olu	olu	VERB	_	Aspect=Imp	10	aux	_	_
+9	olu	olu	AUX	_	Aspect=Imp	10	aux	_	_
 10	dʑi	dʑi	VERB	_	Aspect=Imp	0	root	_	_
 11	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	_
