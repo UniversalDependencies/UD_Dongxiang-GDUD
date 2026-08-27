@@ -1291,7 +1291,7 @@
 # text[eng] = We all have known each other well.
 1	bidzian	bidzian	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	nia	nia	DET	_	PronType=Tot	1	det	_	_
-3	nia	nia	PRON	_	PronType=Prs|PronType=Rcp|Reflex=Yes	4	obj	_	_
+3	nia	nia	PRON	_	PronType=Rcp|Reflex=Yes	4	obj	_	_
 4	minjbai	minjbai	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	no	no	PART	_	_	4	advmod	_	_
 6	wo	wo	AUX	_	Mood=Ind|VerbForm=Fin	4	aux	_	_
