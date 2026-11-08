@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>105</sentences><tokens>893</tokens><words>893</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>105</sentences><tokens>893</tokens><words>893</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="366" /><!-- wo, ., ?, olu, ʂi, bi, ,, hə, nia, mini, tʂi, gia, nie, na, ulia -->
+  <forms unique="379" /><!-- wo, ., ?, olu, ʂi, bi, ,, hə, nia, mini, tʂi, gia, nie, na, ulia -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">23</tag><!-- fugia, mila, gudula, atʃia, chighan, ga, gau, hulan, kieliən, olu-dʑi -->
+    <tag name="ADP">11</tag><!-- sə, atʃi, da, diere, dunda, shida-se, toro, tʂugo -->
+    <tag name="ADV">46</tag><!-- puʂi, ada, dau, dakumu, dawa, ede, qala, tʂu, əndə, Ingiese -->
+    <tag name="AUX">130</tag><!-- wo, olu, na, madʑiə, ʂi, dʑi, pa, wai, nu, ɕi -->
+    <tag name="CCONJ">1</tag><!-- ji -->
+    <tag name="DET">31</tag><!-- hə, əna, igua, ədzi-kaŋ, ənədzi-kaŋ, ene, ha, hə-la, hədziaŋ, nia -->
+    <tag name="INTJ">2</tag><!-- asa, dau -->
+    <tag name="NOUN">186</tag><!-- nasuŋ, kozi, kun, gia, gie-de, kuŋ, ʨiaʂəŋ, biau, dziaxuŋ, udu -->
+    <tag name="NUM">77</tag><!-- nia, nie, niə, ghua, gua, dolon, liandʑian, guran, idziu, bandang -->
+    <tag name="PART">25</tag><!-- ulia, ja, ni, olu-dʑi, u, ba, da, dʑiʂi, kuŋ, la -->
+    <tag name="PRON">124</tag><!-- bi, mini, tʂi, hə, wo, tʂini, ene, minurəŋ, qala, tʂima -->
+    <tag name="PROPN">12</tag><!-- qudəi-ni, Abudu, Jiashi, Tuja, Xining-du, baja, kudəi, liuja, ning-du, tʂija -->
+    <tag name="PUNCT">103</tag><!-- ., ?, ,, _ -->
+    <tag name="SCONJ">2</tag><!-- sə -->
+    <tag name="VERB">120</tag><!-- ʂi, olu, gia, ulia, kieliə, fugiada, sau, bang, ira, kere-ne -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="42">
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">27</feat><!-- dʑi, olu, gia, sau, gudula, wai, bandzi, duiji, idzɪə-ku, ira -->
+    <feat name="Aspect" value="Perf" upos="ADV,VERB">20</feat><!-- olu, dawa, fugiada, echi-wo, gholu-wo, guilugva-zhi, irə, jier-ne, kielie-wo, kielien -->
+    <feat name="Aspect" value="Prog" upos="VERB">10</feat><!-- bao-zhuo, dahhala-zhuo, fugieda-zhuo, fugierei, holu-zhiwo, igva, ire-zhuo, man, ochira-zho, piaoyi-zhi -->
+    <feat name="Case" value="Abl" upos="ADP,ADV,NUM,PRON">11</feat><!-- sə, təra, tʂima, liandʑian, shida-se, əndə -->
+    <feat name="Case" value="Acc" upos="NOUN,PART,PRON,PROPN,VERB">8</feat><!-- qudəi-ni, Kha-ni, biau, duŋʨi-la-ni, gia, ni, qudəi -->
+    <feat name="Case" value="Com" upos="NOUN,PRON">2</feat><!-- kian, kuŋ -->
+    <feat name="Case" value="Dat" upos="ADP,NOUN,PRON,PROPN,VERB">26</feat><!-- ʂidzia, gia, giə-də, tʂima-də, arəŋ, da, dzəndzi, dʑindʑi, hə, liuja -->
+    <feat name="Case" value="Gen" upos="NOUN,PART,PRON,PROPN">23</feat><!-- mini, tsini, ʂini, Abudu, Bijien-ni, Buda-ne, Moran-ni, arəŋ, balinnian, bidzian -->
+    <feat name="Case" value="Loc" upos="NOUN,PROPN">3</feat><!-- Xining-du, badza, ning-du -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON">57</feat><!-- bi, tʂi, nasuŋ, hə, adzai, biau, dʑiau, udu, anudu, baiu -->
+    <feat name="Degree" value="Abs" upos="ADV">1</feat><!-- ʂiʂidʑi -->
+    <feat name="Degree" value="Cmp" upos="ADJ">4</feat><!-- fugia, mila -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">6</feat><!-- fugia, gau, lidali, mila, xanda, ɕolo -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">3</feat><!-- tʂu, fugia -->
+    <feat name="Gender" value="Fem" upos="NOUN,PRON">3</feat><!-- hə, otɕin -->
+    <feat name="Gender" value="Masc" upos="PRON">1</feat><!-- hə -->
+    <feat name="Mood" value="Imp" upos="VERB">6</feat><!-- kere-ne, da-ne, gie-ne, siragva, ta -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">179</feat><!-- wo, ʂi, olu, madʑiə-na, gia, dʑi, kieliə, ulia, nu, wai-n-u -->
+    <feat name="Mood" value="Int" upos="AUX,PART,VERB">6</feat><!-- u, wai, wo -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PART,PRON">32</feat><!-- hə, kuŋ, duŋʨi-la, hamusa, ədzi-kaŋ, ənədzi-kaŋ, Bijien-ni, Bijienni, bidzian, bidʑiə-ni -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN">94</feat><!-- bi, tʂi, mini, tʂini, gie-de, Ene, hə, minurəŋ, tʂima, kəwoŋ -->
+    <feat name="NumType" value="Card" upos="NOUN,NUM">79</feat><!-- nia, nie, niə, ghua, gua, dolon, liandʑian, guran, idziu, bandang -->
+    <feat name="Person" value="1" upos="PRON">42</feat><!-- bi, mini, minurəŋ, bidzian, Bijien-ni, Buda-ne, bidʑiə-ni, cheni, ma-də -->
+    <feat name="Person" value="2" upos="PRON">34</feat><!-- tʂi, tʂini, tʂima, tani, tsini, tʂima-də, tʂinurəŋ, ʂini, Bijienni, becheg -->
+    <feat name="Person" value="3" upos="PRON">16</feat><!-- hə, Ene, tərə, ha, kuŋ, kuŋpa, shi -->
+    <feat name="Polarity" value="Neg" upos="ADV,AUX,INTJ,PART,VERB">25</feat><!-- ulia, puʂi, madʑiə-na, sho-wa, dau, ui, uitu, əsə -->
+    <feat name="Polarity" value="Pos" upos="AUX">3</feat><!-- madʑiə-n-u, ənbai-n-u -->
+    <feat name="Poss" value="Yes" upos="NOUN,PRON">17</feat><!-- mini, tʂini, minurəŋ, bidʑiə-ni, dziau-mini, tani -->
+    <feat name="PronType" value="Dem" upos="DET">26</feat><!-- hə, əna, ədzi-kaŋ, ənədzi-kaŋ, Tenga, Tere, ene, ha, hə-la, hədziaŋ -->
+    <feat name="PronType" value="Ind" upos="DET">1</feat><!-- oloŋ -->
+    <feat name="PronType" value="Int" upos="NUM,PRON">16</feat><!-- giaduŋ, qala, jag, jan, ali, dʑidʑian, giadza, jaŋ, kian, kiən -->
+    <feat name="PronType" value="Prs" upos="PRON">107</feat><!-- bi, mini, tʂi, hə, wo, tʂini, Ene, minurəŋ, tʂima, bidzian -->
+    <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- nia -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- igua, nia -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- nia -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">22</feat><!-- olu, gia, wo, sho-wa, biandzi, dawa, fugiada, kuru, mata, oul -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">18</feat><!-- na, olu, ira, madʑia, tai-dʑi, uda -->
+    <feat name="VerbForm" value="Conv" upos="AUX,NOUN,SCONJ,VERB">18</feat><!-- dziaxuŋ, sumula, sə, bandzi, doyi-zhi, dzixuŋ, giadzi, jiesung, pa, sau -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">189</feat><!-- wo, ʂi, olu, madʑiə-na, gia, dʑi, kieliə, ulia, nu, wai-n-u -->
+    <feat name="VerbForm" value="Inf" upos="VERB">2</feat><!-- khiche, shidu -->
+    <feat name="VerbForm" value="Part" upos="NOUN,VERB">12</feat><!-- olu, fugiada, baira, dziaxuŋ, irə, jə, kaiji-tɕaŋ, minjbai -->
+    <feat name="Voice" value="Pass" upos="VERB">3</feat><!-- baira, dziaxuŋ, jə -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="35">
+    <dep name="acl">2</dep>
+    <dep name="acl:relcl">5</dep>
+    <dep name="advcl">8</dep>
+    <dep name="advmod">45</dep>
+    <dep name="amod">9</dep>
+    <dep name="appos">2</dep>
+    <dep name="aux">78</dep>
+    <dep name="aux:pass">1</dep>
+    <dep name="case">12</dep>
+    <dep name="cc">1</dep>
+    <dep name="ccomp">7</dep>
+    <dep name="compound">11</dep>
+    <dep name="compound:lvc">7</dep>
+    <dep name="compound:svc">7</dep>
+    <dep name="conj">12</dep>
+    <dep name="cop">11</dep>
+    <dep name="dep">9</dep>
+    <dep name="det">42</dep>
+    <dep name="discourse">21</dep>
+    <dep name="iobj">2</dep>
+    <dep name="mark">3</dep>
+    <dep name="nmod">34</dep>
+    <dep name="nmod:poss">29</dep>
+    <dep name="nmod:tmod">1</dep>
+    <dep name="nsubj">122</dep>
+    <dep name="nsubj:outer">1</dep>
+    <dep name="nsubj:pass">1</dep>
+    <dep name="nummod">66</dep>
+    <dep name="obj">31</dep>
+    <dep name="obl">40</dep>
+    <dep name="obl:tmod">20</dep>
+    <dep name="parataxis">31</dep>
+    <dep name="punct">103</dep>
+    <dep name="root">105</dep>
+    <dep name="xcomp">14</dep>
+  </deps>
+</treebank>
